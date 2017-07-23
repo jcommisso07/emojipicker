@@ -12,6 +12,7 @@
 		7C2164E81F2178A0009BB49F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C2164E61F2178A0009BB49F /* Main.storyboard */; };
 		7C2164EA1F2178A0009BB49F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C2164E91F2178A0009BB49F /* Assets.xcassets */; };
 		7C2164ED1F2178A0009BB49F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C2164EB1F2178A0009BB49F /* LaunchScreen.storyboard */; };
+		7C500FC41F2439A400E43212 /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C500FC31F2439A400E43212 /* EmojiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7C2164E91F2178A0009BB49F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C2164EC1F2178A0009BB49F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C2164EE1F2178A0009BB49F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C500FC31F2439A400E43212 /* EmojiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmojiViewController.swift; path = ../EmojiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				7C2164E21F2178A0009BB49F /* AppDelegate.swift */,
 				7C2164E41F2178A0009BB49F /* ViewController.swift */,
+				7C500FC31F2439A400E43212 /* EmojiViewController.swift */,
 				7C2164E61F2178A0009BB49F /* Main.storyboard */,
 				7C2164E91F2178A0009BB49F /* Assets.xcassets */,
 				7C2164EB1F2178A0009BB49F /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C500FC41F2439A400E43212 /* EmojiViewController.swift in Sources */,
 				7C2164E51F2178A0009BB49F /* ViewController.swift in Sources */,
 				7C2164E31F2178A0009BB49F /* AppDelegate.swift in Sources */,
 			);
@@ -301,6 +305,7 @@
 				7C2164F31F2178A0009BB49F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
